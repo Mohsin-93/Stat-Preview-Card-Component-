@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - [Solution](https://github.com/Mohsin-93/Stat-Preview-Card-Component-)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site](https://mohsin-93.github.io/Stat-Preview-Card-Component-/)
 
 
 ### Built with
