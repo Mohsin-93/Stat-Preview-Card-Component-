@@ -43,9 +43,6 @@
 
     }
 
-    .text-wrapper-wraper {}
-
-    .text-wrapper {}
 
     h1 {
       color: hsl(0, 0%, 100%);
@@ -63,7 +60,6 @@
 
     }
 
-    .stats-wrapper div {}
 
     h2.stats {
       color: hsl(0, 0%, 100%);
@@ -89,14 +85,19 @@
       opacity: 0;
     }
 
+    picture img {
+      object-fit: fill;
+    }
+
+
     @media screen and (width > 810px) {
       .card {
         margin: auto;
         background-color: hsl(244, 38%, 16%);
-        max-width: -moz-fit-content;
-        max-width: fit-content;
-        /* width: 77%;
-        height: 55.5%; */
+        /* max-width: -moz-fit-content; */
+        max-width: 77%;
+        /* width: 77%; */
+        /* height: 55.5%; */
         border-radius: 11px;
         display: flex;
         align-items: center;
@@ -156,8 +157,11 @@
         border-bottom-right-radius: 11px;
       }
 
-      .img-wrapper img {}
 
+      picture img {
+        border-top-right-radius: 11px;
+        border-bottom-right-radius: 11px;
+      }
       ;
     }
 
@@ -231,7 +235,11 @@
         /* border-bottom-right-radius: unset ; */
       }
 
-      .img-wrapper img {}
+
+      picture img {
+        border-top-left-radius: 11px;
+        border-top-right-radius: 11px;
+      }
 
       ;
     }
@@ -277,6 +285,11 @@
         <img src="images/image-header-desktop.jpg" alt="mood" height="700">
 
       </div>
+      <!-- <picture>
+        <source media="(max-width:810px)" srcset="/images/image-header-mobile.jpg">
+        <source media="(min-width:811px)" srcset="/images/image-header-desktop.jpg">
+        <img src="" alt="mood">
+      </picture> -->
   </main>
 
   <!-- <div class="attribution">
